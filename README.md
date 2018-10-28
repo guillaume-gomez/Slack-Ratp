@@ -3,8 +3,9 @@ The repository is a tiny slack bot, to convert text to ratp emogi (see icons fol
 
 ## Mapping
 
+
 |Icons | Name|
---------------
+|------|-----|
 |1.png | `:m1:`|
 |2.png | `:m2:`|
 |3.png | `:m3:`|
