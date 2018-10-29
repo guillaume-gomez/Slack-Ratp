@@ -49,11 +49,13 @@ def convert_text_to_train_line(message)
   result = []
   index = 0
   chars = message.chars
-  
+
   while index < chars.count
     c = chars[index]
     next if c.nil?
-    if numbers[c.downcase.to_sym]
+    if c == " "
+      result << "  "
+    elsif numbers[c.downcase.to_sym]
       # check if number are 10, 11, 12, 13, 14
       key = "#{c}#{chars[index +1]}"
       if (index + 1) != chars.count && numbers[key.to_sym]
