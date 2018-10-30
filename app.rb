@@ -14,7 +14,6 @@ class HerokuSlack < Sinatra::Base
     return if content.empty?
     content_type :json
     {:text => content, :response_type => "in_channel"}.to_json
-    content
   end
 
 end
