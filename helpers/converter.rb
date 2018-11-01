@@ -2,10 +2,15 @@ def convert_text_to_train_line(message)
 
   letters = {
     "a": ":la:",
+    "à": ":la:",
     "b": ":lb:",
     "c": ":lc:",
+    "ç": ":lc:",
     "d": ":ld:",
     "e": ":le:",
+    "é": ":le:",
+    "è": ":le:",
+    "ê": ":le:",
     "f": ":lf:",
     "g": ":lg:",
     "h": ":lh:",
