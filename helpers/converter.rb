@@ -27,6 +27,7 @@ def convert_text_to_train_line(message)
     "s": ":ls:",
     "t": ":lt:",
     "u": ":lu:",
+    "ù": ":lu:",
     "v": ":lv:",
     "w": ":lw:",
     "x": ":lx:",
