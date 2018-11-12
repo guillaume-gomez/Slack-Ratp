@@ -7,8 +7,6 @@ require 'httparty'
 
 use SlackAuthorizer
 
-require 'sinatra/base'
-
 class HerokuSlack < Sinatra::Base
 
   post '/slack/command' do

@@ -10,7 +10,6 @@ GEM
     rack (2.0.5)
     rack-protection (2.0.4)
       rack
-    rake (12.3.1)
     sinatra (2.0.4)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -25,7 +24,6 @@ DEPENDENCIES
   byebug
   dotenv
   httparty
-  rake
   sinatra
 
 RUBY VERSION
