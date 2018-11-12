@@ -3,6 +3,8 @@ require 'sinatra'
 
 require 'httparty'
 
+require_relative 'app/slack_authorizer'
+require_relative 'helpers/converter'
 
 use SlackAuthorizer
 
