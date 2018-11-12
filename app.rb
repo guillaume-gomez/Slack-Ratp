@@ -1,5 +1,4 @@
 require 'dotenv/load'
-require 'byebug'
 require 'sinatra'
 
 require 'httparty'
