@@ -1,13 +1,12 @@
 require 'dotenv/load'
-require 'byebug'
 require 'sinatra'
 
 require 'httparty'
 
+require_relative 'app/slack_authorizer'
+require_relative 'helpers/converter'
 
 use SlackAuthorizer
-
-require 'sinatra/base'
 
 class HerokuSlack < Sinatra::Base
 
