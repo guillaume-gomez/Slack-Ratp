@@ -1,8 +1,9 @@
 # Slack Ratp
 The repository is a tiny slack bot, to convert text to ratp emogi (see icons folder)
 
-## Mapping
+![preview](preview.png)
 
+## Mapping
 
 |Icons | Name| Preview|
 |------|-----|--------|
